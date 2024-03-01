@@ -23,14 +23,14 @@ router.post('/notes', (req, res) => {
 
 // Function to read notes from db.json
 function readNotes() {
-    const filePath = path.join(__dirname, '../db.json');
+    const filePath = path.join(__dirname, '../db/db.json');
     const data = fs.readFileSync(filePath, 'utf8');
     return JSON.parse(data) || [];
 }
 
 // Function to write notes to db.json
 function writeNotes(notes) {
-    const filePath = path.join(__dirname, '../db.json');
+    const filePath = path.join(__dirname, '../db/db.json');
     fs.writeFileSync(filePath, JSON.stringify(notes));
 }
 
