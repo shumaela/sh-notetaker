@@ -3,7 +3,7 @@ const fs = require('fs');
 const path = require('path');
 
 // Route to read notes from db.json
-router.get('/notes', (req, res) => {
+router.get('/api/notes', (req, res) => {
     const notes = readNotes();
     res.json(notes);
 });
