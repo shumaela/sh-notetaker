@@ -32,3 +32,15 @@ THEN I am presented with empty fields to enter a new note title and the note’s
 ```
 ![image](https://github.com/shumaela/sh-notetaker/assets/147661185/5b40bf00-e927-44be-93e1-870e87a9abcb)
 ```
+
+## Deployed Link
+
+```
+https://tranquil-falls-70657-13d21a812491.herokuapp.com/
+```
+
+## Repo Link
+
+```
+https://github.com/shumaela/sh-notetaker
+```
